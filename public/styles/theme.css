@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  color:#aaaaaa;
+  background-image: url("../img/leaves.png");
+}
+.greeting{
+  background-color:#99cc00;
+  padding:7px ;
+  text-align:left;
+  height:  50px;
+}
+
+#greet {
+  margin:0px;
+  float :left;
+  color: #292f36;
+}
+
+.btn-group .button {
+  background-color: #99cc00;
+  border: none;
+  color: #292f36;
+  font-weight: bold;
+  height:40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  float: right;
+}
+
+.btn-group .button:hover {
+  background-color: #f5f9f8;
+}
+
+footer{
+  background-color:#e5e5e5;
+  text-align:center;
+  padding:10px;
+  margin-top:7px;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  nav, section, aside {
+    width:100%;
+  }
+
+}
